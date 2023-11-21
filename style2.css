@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: initial;
+    background-color: white;
+    color: rgb(3, 80, 9);
+}
+
+nav{
+    background: rgb(24, 1, 66);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: rgb(231, 210, 18);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.site{
+    background-color: rgb(24, 1, 66);
+    color: white;
+    margin-left: 1000px;
+    width: 300px;
+    height: 250px;
+    margin-top: -640px;
+    padding: 20px;
+
+}
+h3{
+    margin-left: 150px;
+}
+.design{
+    display: flex;
+    flex-direction: column;
+
+    margin: 140px;
+  
+ }
+
+ .desi1{
+    width: 800px;
+    margin: 10px; 
+    padding: 20px;
+    background-color: rgb(227, 227, 243);
+    margin-bottom: -23px;
+    margin-top: -140px;
+ }
+
+ .desi2{
+    width: 800px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(227, 227, 243);
+    margin-bottom: -23px;
+ }
+ .desi3{
+    width: 800px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(227, 227, 243);
+ }
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+    padding: 0 10px;
+    
+}
+
+nav ul li a{
+    color: yellow;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.web{
+background-color: yellow;
+text-align: center;
+width: 100%;
+font-size: 20px;
+line-height: 70px;
+font-weight: bold;
+margin-top: 270px;
+color: white;
+}
